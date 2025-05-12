@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Add Product</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <h1>Add New Product</h1>
+  <form id="productForm">
+    <label>Product Image:</label>
+    <input type="file" id="image" required><br>
+
+    <label>Caption:</label>
+    <input type="text" id="caption" required><br>
+
+    <label>Color:</label>
+    <input type="text" id="color" required><br>
+
+    <label>Size:</label>
+    <input type="text" id="size" required><br>
+
+    <label>Quantity:</label>
+    <input type="number" id="quantity" required><br>
+
+    <label>Category:</label>
+    <select id="category" required>
+      <option value="">--Select--</option>
+      <option value="men">Men Shoes</option>
+      <option value="women">Women Shoes</option>
+      <option value="children">Children Shoes</option>
+    </select><br>
+
+    <button type="submit">Add Product</button>
+  </form>
+
+  <script src="admin.js"></script>
+</body>
+</html>
